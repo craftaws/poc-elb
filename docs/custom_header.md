@@ -1,0 +1,2 @@
+- cdk pipeline 프로젝트를 통해 배포된 람다 함수, poc-gateway-func-tester, 에서는 custom header 를 설정하여 application load balancer 를 통과해 핸들러 람다 함수인 poc-gateway-func-handler 에 요청을 보냅니다. poc-gateway-func-handler 의 실행 로그에서 custom header 값을 확인할 수 있습니다.
+![simple_architecture](./res/custom_header.png)
